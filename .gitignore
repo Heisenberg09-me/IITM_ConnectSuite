@@ -1,0 +1,15 @@
+# IDE-specific files
+.idea/
+
+# Build artifacts
+build/
+dist/
+*.spec
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+venv/
