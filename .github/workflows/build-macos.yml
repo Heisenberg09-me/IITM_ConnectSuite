@@ -25,7 +25,7 @@ jobs:
 
     - name: Build the application with PyInstaller
       run: |
-        pyinstaller --noconfirm --onefile --windowed --name "IITM_ConnectSuite" --add-data "templates:templates" --add-data "images:images" --add-data "signatures.json:." app.py
+        pyinstaller --noconfirm --onefile --windowed --name "IITM_ConnectSuite" --add-data "templates:templates" --add-data "images:images" --add-data "signatures.json:." emailing.py
 
     - name: Upload the macOS App as an Artifact
       uses: actions/upload-artifact@v4
